@@ -40,6 +40,9 @@ export const SeoManager = () => {
             <meta property="og:description" content={t.metaDescription} />
             <meta property="og:url" content={siteUrl} />
             <meta property="og:image" content={itemsUrl} />
+            <meta property="og:image:width" content="1200" />
+            <meta property="og:image:height" content="630" />
+            <meta property="og:image:type" content="image/png" />
             <meta property="og:locale" content={getLocale(currentLang)} />
             <meta property="og:site_name" content={t.title} />
 

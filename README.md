@@ -1,16 +1,90 @@
-# React + Vite
+# University Grade Calculator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+**University Grade Calculator** is a frontend-only web application that allows Algerian university students to easily calculate their grades.
+The app is multilingual (Arabic, French, English), fully responsive, and comes with a modern and attractive interface.
+It features a welcome screen with typing animation, automatic light/dark theme based on device preferences, and manual theme switching.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* Calculate module grades using TD, Exam, Control points, and module coefficient.
+* Numeric keyboard input on mobile for easier data entry.
+* Module Average label updates dynamically according to the selected language:
 
-## Expanding the ESLint configuration
+  * Arabic: "معدل المقياس"
+  * French: "Moyenne du module"
+  * English: "Module Average"
+* Welcome screen with **typing effect** in the selected language.
+* Automatic theme switching based on device preference (light/dark) with manual override.
+* Fully responsive design (mobile, tablet, and desktop friendly).
+* RTL/LTR support for Arabic, French, and English.
+* Dynamic browser tab title based on the selected language.
+* UX enhancements: smooth transitions, animations, and mobile-first interactions.
+* SEO-friendly: meta tags, Open Graph, structured data placeholders.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Tech Stack
+
+* **Frontend:** React, Vite, TailwindCSS, shadcn/ui
+* **Multilingual Support:** Arabic, French, English
+* **Animations & UX:** Tailwind transitions, CSS animations, typing effect
+* **Deployment-ready:** Lightweight, frontend-only, fully responsive
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+* Node.js >= 18.x
+* npm or yarn
+
+### Installation
+
+```bash
+git clone https://github.com/your-username/university-grade-calculator.git
+cd university-grade-calculator
+npm install
+```
+
+### Running the App
+
+```bash
+npm run dev
+```
+
+Open your browser at `http://localhost:5173` (or the port shown in your terminal).
+
+---
+
+## Usage
+
+* Add modules by entering their name, grades, and coefficient.
+* Calculate your module averages instantly by clicking the "Calculate" button.
+* Switch the language and theme from the settings icon.
+* The welcome screen appears on every visit, with typing animation.
+
+---
+
+## Future Improvements
+
+* PWA support for installing as a mobile app.
+* Drag & Drop to reorder modules.
+* Undo/Redo functionality for module changes.
+* Export grades to PDF or CSV.
+
+---
+
+## Author
+
+* **Anis Harkat** – [Instagram](https://www.instagram.com/anis_harkat)
+
+---
+
+## License
+
+This project is **open-source** (MIT License recommended).

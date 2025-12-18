@@ -1,3 +1,6 @@
+<!doctype html>
+<html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <link rel="icon" type="image/svg+xml" href="/vite.svg" />
@@ -5,20 +8,12 @@
   <link rel="manifest" href="/manifest.json" />
   <title>University Grade Calculator - Algeria</title>
 
-  <!-- Open Graph meta tags -->
-  <meta property="og:title" content="University Grade Calculator" />
-  <meta property="og:description"
-    content="Free app to calculate Algerian university GPAs. Supports LMD system, diverse majors, and custom coefficients." />
+  <!-- Open Graph Image فقط -->
   <meta property="og:image" content="https://univ-grade-calculator.netlify.app/og-image.png" />
   <meta property="og:image:secure_url" content="https://univ-grade-calculator.netlify.app/og-image.png" />
   <meta property="og:image:type" content="image/png" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
-  <meta property="og:url" content="https://univ-grade-calculator.netlify.app" />
-
-  <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:image" content="https://univ-grade-calculator.netlify.app/og-image.png" />
 
   <script type="application/ld+json">
       {
@@ -42,3 +37,10 @@
       }
   </script>
 </head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+
+</html>

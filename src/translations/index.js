@@ -29,7 +29,7 @@ export const translations = {
         close: "إغلاق",
         moduleNamePlaceHolder: "المقياس رقم",
         semester: "السداسي",
-        metaDescription: "تطبيق مجاني لحساب المعدل الجامعي في الجزائر. يدعم نظام LMD، المدارس العليا، وجميع التخصصات. حساب دقيق وسريع.",
+        metaDescription: "تطبيق ويب حديث لحساب المعدلات الجامعية بسهولة. متعدد اللغات، متجاوب، ومتوافق مع الهواتف.",
         keywords: "حساب المعدل, معدل الجامعة, الجزائر, LMD, كشف النقاط, حساب المعدل التراكمي, جامعة, طالب",
     },
     fr: {
@@ -62,7 +62,7 @@ export const translations = {
         close: "Fermer",
         moduleNamePlaceHolder: "Module",
         semester: "Semestre",
-        metaDescription: "Application gratuite pour calculer la moyenne universitaire en Algérie. Supporte le système LMD, les écoles supérieures et toutes les spécialités.",
+        metaDescription: "Une application web moderne pour calculer facilement les notes universitaires. Multilingue, responsive et adaptée aux mobiles.",
         keywords: "calcul moyenne, moyenne universitaire, algérie, LMD, relevé de notes, université, étudiant",
     },
     en: {
@@ -95,7 +95,7 @@ export const translations = {
         close: "Close",
         moduleNamePlaceHolder: "Module",
         semester: "Semester",
-        metaDescription: "Free app to calculate Algerian university GPAs. Supports LMD system, diverse majors, and custom coefficients. Fast and accurate.",
+        metaDescription: "A modern web app to calculate university grades easily. Multilingual, responsive, and mobile-friendly.",
         keywords: "grade calculator, university gpa, algeria, LMD, student, transcript, average calculator",
     }
 };
